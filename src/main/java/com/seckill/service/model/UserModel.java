@@ -36,7 +36,7 @@ public class UserModel {
     this.gender = gender;
   }
 
-  public int getAge() {
+  public Integer getAge() {
     return age;
   }
 
