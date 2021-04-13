@@ -9,7 +9,7 @@ public class CommonReturnType {
 
   // 通用创建方法
   public static CommonReturnType create(Object result) {
-    return CommonReturnType.create(result, "successs");
+    return CommonReturnType.create(result, "success");
   }
 
   public static CommonReturnType create(Object result, String processStatus) {

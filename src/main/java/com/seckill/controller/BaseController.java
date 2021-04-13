@@ -13,6 +13,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class BaseController {
+
+  public static final String CONTENT_TYPE_FORMED = "application/x-www-form-urlencoded";
+
   // 定义exceptionhandler处理web controller层未被处理的异常
   @ExceptionHandler(Exception.class)
   @ResponseStatus(HttpStatus.OK)
